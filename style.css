@@ -14,16 +14,17 @@
 }
 
 .text1 {
-    font-size: 40px;
+    font-size: 2.5rem;
     color: grey;
 }
 
 .text2 {
-    font-size: 42px;
+    font-size: 2.6rem;
     color: black;
 }
 
 .text3 {
+    font-size: 1rem;
     color: gray;
     text-align: center;
 }
@@ -127,4 +128,75 @@ img {
     width: 60px;
     
 }
+
+@media screen and (max-width: 750px){
+
+	.text1 {
+		font-size: 1.3rem;
+	}
+
+    .text2 {
+		font-size: 1.5rem;
+	}
+
+    .text3 {
+		font-size: 0.7rem;
+	}
+
+    .header {
+        display: flex;
+        margin-top: 1%;
+    }
+
+	.box {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        gap: 10vh;
+        align-items: center;
+    }
+
+    .box1 {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box1__1 {
+        height: 30vh;
+    }
+
+    .box2 {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box2__1 {
+        height: 30vh;
+        margin-top: -5vh;
+    }
+    
+
+    .box2__2 {
+        height: 30vh;
+    }
+
+    .box3 {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box3__1 {
+        height: 30vh;
+        margin-top: -5vh;
+        margin-bottom: 1vh;
+    }
+    
+}
+
 
